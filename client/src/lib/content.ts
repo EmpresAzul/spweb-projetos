@@ -75,14 +75,14 @@ export const deliverables = [
   ["Automações e integrações", "Soluções inteligentes que eliminam tarefas manuais e reduzem erro humano.", "/images/poster-3.webp"],
   ["Controle financeiro e custos", "Visão real de margem, custo e retorno por área, produto ou cliente.", "/images/poster-4.webp"],
   ["Painel de indicadores", "Os números que importam, à vista.", "/images/poster-5.webp"],
-  ["Treinamento e passagem", "Sua equipe aprende a operar o ecossistema e ele continua funcionando depois que saímos.", "/manus-storage/async-images/d0ds62ZLOQSRvHdW46yZPj/image-1.webp"],
+  ["Treinamento e passagem", "Sua equipe aprende a operar o ecossistema e ele continua funcionando depois que saímos.", "/images/poster-1.webp"],
 ] as const;
 
 export const sectionVisuals = {
   operations: "/images/operations.webp",
-  automation: "/manus-storage/async-images/deYp5uYAn6EGb3IsJROWCP/image-1.webp",
-  chaos: "/manus-storage/async-images/deYp5uYAn6EGb3IsJROWCP/image-2.webp",
-  order: "/manus-storage/async-images/deYp5uYAn6EGb3IsJROWCP/image-3.webp",
+  automation: "/images/operations.webp",
+  chaos: "/images/hero-desktop.webp",
+  order: "/images/operations.webp",
 } as const;
 
 export const testimonials = [
