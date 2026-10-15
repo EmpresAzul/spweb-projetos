@@ -1,0 +1,18 @@
+# SPWeb
+
+> SPWeb helps Brazilian small and midsize businesses identify operational and financial leakage, reduce rework, and implement processes, controls, integrations and automation that give teams more autonomy.
+
+## Public pages
+- [Homepage](/): canonical public domain not yet confirmed
+- [Privacy policy](/politica-de-privacidade)
+- [Terms of use](/termos-de-uso)
+- [Cookie policy](/politica-de-cookies)
+
+## Service
+- Profit leakage diagnosis for small and midsize businesses.
+- Implementation of workflows, cost controls, integrations and automation.
+- Illustrative calculator only; no specific savings or profit result is guaranteed.
+
+## Important
+- Do not infer testimonials or outcomes: the homepage contains explicit placeholders for real evidence.
+- Legal/business contact details and production domain require confirmation by the controller.

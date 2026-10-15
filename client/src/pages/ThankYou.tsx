@@ -1,0 +1,6 @@
+import { siteConfig } from "../lib/config";
+export default function ThankYou() {
+  const whatsapp = siteConfig.whatsapp.replace(/\D/g, "");
+  const message = encodeURIComponent("Olá, acabei de solicitar meu Diagnóstico de vazamentos de lucro pela SPWeb.");
+  return <main className="thanks-page wrap"><a className="brand" href="/" aria-label="SPWeb — início"><span className="brand-mark" aria-hidden="true">◆</span><span><b>SP</b><em>Web</em></span></a><div className="thanks-card"><span className="thanks-check" aria-hidden="true">✓</span><span className="eyebrow">SOLICITAÇÃO RECEBIDA</span><h1 className="headline">Recebemos sua mensagem.</h1><p>Obrigado. Nossa equipe vai analisar sua situação e retornar em até 1 dia útil.</p><h2 className="headline">Próximos passos</h2><ol><li>Analisamos o que você enviou.</li><li>Entramos em contato pelo WhatsApp ou e-mail.</li><li>Mostramos onde estão os vazamentos e o plano de implantação.</li></ol>{whatsapp ? <a className="ghost-cta" href={`https://wa.me/${whatsapp}?text=${message}`} target="_blank" rel="noopener">Falar agora pelo WhatsApp ↗</a> : <span className="ghost-cta disabled">WhatsApp será configurado em breve</span>}<a className="back-link" href="/">Voltar ao site</a></div></main>;
+}
