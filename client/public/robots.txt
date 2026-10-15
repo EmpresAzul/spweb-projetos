@@ -1,29 +1,15 @@
+# robots.txt
 User-agent: *
 Allow: /
 Disallow: /admgerencia
-Disallow: /obrigado
 Disallow: /api/
 
-User-agent: GPTBot
-Allow: /
-Disallow: /admgerencia
-Disallow: /obrigado
-Disallow: /api/
+# Sitemaps
+Sitemap: https://spweb.com.br/sitemap.xml
 
-User-agent: ClaudeBot
-Allow: /
-Disallow: /admgerencia
-Disallow: /obrigado
-Disallow: /api/
+# Crawl-delay para bots agressivos
+User-agent: AhrefsBot
+Crawl-delay: 10
 
-User-agent: PerplexityBot
-Allow: /
-Disallow: /admgerencia
-Disallow: /obrigado
-Disallow: /api/
-
-User-agent: Google-Extended
-Allow: /
-Disallow: /admgerencia
-Disallow: /obrigado
-Disallow: /api/
+User-agent: SemrushBot
+Crawl-delay: 10

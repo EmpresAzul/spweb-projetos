@@ -87,45 +87,45 @@ export const sectionVisuals = {
 
 export const testimonials = [
   {
-    name: "Michael Rodriguez",
-    city: "Austin",
-    state: "TX",
-    country: "US",
-    text: "After implementing the leak diagnosis recommendations, we reduced operational waste by 34% in just 3 months. The profit finally shows up in the bank account."
+    name: "Carlos Eduardo Silva",
+    city: "São Paulo",
+    state: "SP",
+    country: "Brasil",
+    text: "Após implementar as recomendações do diagnóstico, reduzimos desperdícios operacionais em 34% em apenas 3 meses. O lucro finalmente aparece na conta."
   },
   {
-    name: "Sarah Chen",
-    city: "San Francisco",
-    state: "CA",
-    country: "US",
-    text: "I was working 70-hour weeks and couldn't understand why cash was always tight. The infrastructure they built gave me my life back and doubled our net profit."
+    name: "Marina Santos",
+    city: "Belo Horizonte",
+    state: "MG",
+    country: "Brasil",
+    text: "Eu trabalhava 70 horas por semana e não entendia por que o caixa estava sempre apertado. A infraestrutura que construíram me devolveu minha vida e dobrou nosso lucro líquido."
   },
   {
-    name: "David Martinez",
-    city: "Miami",
-    state: "FL",
-    country: "US",
-    text: "We were growing revenue but margins kept shrinking. They found $180K/year in silent leaks. Best investment we ever made."
+    name: "Ricardo Oliveira",
+    city: "Curitiba",
+    state: "PR",
+    country: "Brasil",
+    text: "A receita crescia mas a margem encolhia. Encontraram R$ 180 mil por ano em vazamentos silenciosos. Melhor investimento que já fizemos."
   },
   {
-    name: "Jennifer Thompson",
-    city: "Seattle",
-    state: "WA",
-    country: "US",
-    text: "The team can now operate without me. The automated controls and processes mean I'm building the business, not fixing fires every day."
+    name: "Juliana Ferreira",
+    city: "Porto Alegre",
+    state: "RS",
+    country: "Brasil",
+    text: "A equipe agora opera sem mim. Os controles automatizados e processos significam que estou construindo o negócio, não apagando incêndios todos os dias."
   },
   {
-    name: "Robert Kim",
-    city: "Chicago",
-    state: "IL",
-    country: "US",
-    text: "I hired more people thinking that would solve it. Turned out the problem was broken processes. They fixed the root cause."
+    name: "André Martins",
+    city: "Brasília",
+    state: "DF",
+    country: "Brasil",
+    text: "Contratei mais gente achando que resolveria. O problema eram processos quebrados. Eles consertaram a causa raiz."
   },
   {
-    name: "Amanda Foster",
-    city: "Denver",
-    state: "CO",
-    country: "US",
-    text: "Clear dashboards, predictable profit, and a team that knows what to do without asking. This is how a real business should run."
+    name: "Patricia Costa",
+    city: "Rio de Janeiro",
+    state: "RJ",
+    country: "Brasil",
+    text: "Dashboards claros, lucro previsível e uma equipe que sabe o que fazer sem perguntar. É assim que uma empresa de verdade deve funcionar."
   }
 ] as const;
