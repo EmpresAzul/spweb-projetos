@@ -60,7 +60,7 @@ export default function Home() {
 
   return <div className="site" id="top">
     <a className="skip-link" href="#conteudo">Pular para o conteúdo</a>
-    <div className="topline">{heroContent.announcement}</div>
+    {heroContent.announcement && <div className="topline">{heroContent.announcement}</div>}
     <header className={`site-header${scrolled ? " is-scrolled" : ""}`}><Brand /><a className="header-cta" href="#contato">Falar com a SPWeb <span aria-hidden="true">↗</span></a></header>
     <main id="conteudo">
       <section className="hero" aria-labelledby="hero-title">

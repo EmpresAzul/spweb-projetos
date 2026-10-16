@@ -12,7 +12,7 @@ export const faqs = [
 ] as const;
 
 export const heroContent = {
-  announcement: "Diagnóstico inicial com vagas limitadas por mês.",
+  announcement: "",
   title: "Sua empresa pode lucrar mais sem precisar vender mais.",
   subheadline: "O lucro não sumiu. Ele está vazando por dentro.",
   cta: "Quero descobrir onde meu lucro está vazando",
