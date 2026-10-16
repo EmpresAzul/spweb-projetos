@@ -193,8 +193,11 @@ export function registerSpwebRoutes(app: Express) {
       }
       const lead: NewLead = {
         id: randomUUID(), name: input.name, company: input.company,
-        whatsapp: input.whatsapp, email: input.email, city: input.city, revenueBand: input.revenueBand,
-        businessModel: input.businessModel, investmentCapability: input.investmentCapability,
+        whatsapp: input.whatsapp, email: input.email, 
+        city: input.city || "", 
+        revenueBand: input.revenueBand,
+        businessModel: input.businessModel || "", 
+        investmentCapability: input.investmentCapability || "Sim",
         message: input.message || null, consent: 1, consentAt: now,
         source, utmSource, utmMedium, utmCampaign,
         ipHash, userAgentSummary: summarizedUserAgent(req.get("user-agent") || ""), createdAt: now,
